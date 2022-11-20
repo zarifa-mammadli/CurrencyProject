@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.img {
+    text-align: center;
+    
+}
+.img {
+    text-align: center;
+    padding: 20px ;
+}
+ul{
+    display: flex;
+    text-align: center;
+    margin-bottom: 0;
+}
+#navbar li{
+    padding: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #959BA4;
+
+
+}
+.nav-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar .active{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #959BA4;
+  
+}
+#navbar{
+    background-color: #eff1f3;
+}
+
+.button{
+display: inline-block;
+ width: 72px;
+height: 43px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+line-height: 43px;
+letter-spacing: 0.06em;
+color: #000000;
+cursor: pointer;
+background-color: white;
+border: 1px solid white ;
+border-radius: 10px;
+}
+.intro-text{
+ width: 587px;
+ height: 32px; 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+
+}
+.intro-header{
+    width: 100%;
+    margin-top: 5%;
+}
+#from{
+    padding-left: 0;
+    
+}
+#from p,
+#to p{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #9F9F9F;
+margin-top: 40px;
+
+}
+#to{
+    padding-left: 0;
+}
+#intro{
+margin-left: 9%;
+}
+#from .activefrom,
+#to .activeto{
+    background-color: #833AE0;
+    color: white;
+    border: none;
+}
+
+#from li,
+#to li{
+    font-size: 15px;
+    color: #959BA4;
+    
+}
+.money{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+#from .money-text,
+#to .money-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #C6C6C6;
+
+}
+ul li{
+    cursor: pointer;
+}
+.fromInp,
+.toInp{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+#reverse{
+    
+  margin-top: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #9F9F9F;
+}

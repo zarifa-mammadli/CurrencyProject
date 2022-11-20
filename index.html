@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="row">
+      
+        <img src="image/logo_currency.png" alt="">
+      
+      <div class="col-lg-8 nav-text">
+        <ul>
+          <li class="active">БАНК</li>
+          <li>БИЗНЕС</li>
+          <li>ИНВЕСТИЦИИ</li>
+          <li>СТРАХОВАНИЕ</li>
+          <li>МОБАЙЛ</li>
+          <li>ПУТЕШЕСТВИЯ</li>
+          <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+      </div>
+      
+        <span class="button">ВОЙТИ</span>
+      
+    </div>
+  </div>
+  <div id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-header">
+          <p class="intro-text">Конвертер валют онлайн</p>
+        </div>
+        <div id="from" class="col-lg-5 col-md-12">
+          <p>У меня есть </p>
+          <div class="card" style="width:280px">
+            <ul class="list-group d-flex flex-row ">
+              <li id="fromRub" class="list-group-item listelementfrom activefrom">RUB</li>
+              <li id="fromUsd" class="list-group-item listelementfrom">USD</li>
+              <li id="fromEur" class="list-group-item listelementfrom">EUR</li>
+              <li id="fromAzn" class="list-group-item listelementfrom">AZN</li>
+            </ul>
+          </div>
+          <div class="card  mt-4" style="width:280px;">
+            <div class="card-body">
+              <input class="fromInp" type="text">
+              <p class="card-text money-text-from"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12" id="reverse">  <i class='bx bx-expand-horizontal'></i></div> 
+        <div id="to" class="col-lg-4 col-md-12">
+          <p>Хочу приобрести</p>
+          <div class="card" style="width:280px">
+            <ul class="list-group d-flex flex-row ">
+              <li id="toRub" class="list-group-item listelement">RUB</li>
+              <li id="toUsd" class="list-group-item listelement activeto">USD</li>
+              <li id="toEur" class="list-group-item listelement">EUR</li>
+              <li id="toAzn" class="list-group-item listelement">AZN</li>
+            </ul>
+          </div>
+          <div class="card  mt-4" style="width:280px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title money">67.6685</h5> -->
+              <input class="toInp" type="text">
+
+              <p class="card-text money-text-to"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
