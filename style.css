@@ -6,10 +6,6 @@
 }
 .img {
     text-align: center;
-    
-}
-.img {
-    text-align: center;
     padding: 20px ;
 }
 ul{
@@ -20,15 +16,13 @@ ul{
 #navbar li{
     padding: 20px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-color: #959BA4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
 
 
 }
@@ -39,16 +33,14 @@ color: #959BA4;
     justify-content: center;
 }
 #navbar .active{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.06em;
+   color: #000000;
 
 }
 #nav{
@@ -61,34 +53,37 @@ color: #000000;
 #navbar{
     background-color: #eff1f3;
 }
-
+.voyti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .button{
-display: inline-block;
- width: 72px;
-height: 43px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-text-align: center;
-line-height: 43px;
-letter-spacing: 0.06em;
-color: #000000;
-cursor: pointer;
-background-color: white;
-border: 1px solid white ;
-border-radius: 10px;
+    display: inline-block;
+    width: 72px;
+    height: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white ;
+    border-radius: 10px;
 }
 .intro-text{
- width: 587px;
- height: 32px; 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-color: #000000;
-
+    width: 587px;
+    height: 32px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
 }
 .intro-header{
     width: 100%;
@@ -120,7 +115,7 @@ margin-left: 9%;
 }
 #from .activefrom,
 #to .activeto{
-    background-color: #833AE0;
+    background-color: #833AE0;;
     color: white;
     border: none;
 }
@@ -171,3 +166,77 @@ ul li{
     cursor: pointer;
     color: #9F9F9F;
 }
+.impt_all {
+    text-align: center;
+    width: 232px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.impt_all input {
+    width: 100%;
+    height: 70px;
+    padding-bottom: 24px;
+    font-size: 36px;
+    padding-left: 9px;
+}
+
+#abso {
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    opacity: 0.7;
+    font-size: 12px;
+}
+@media only screen and (max-width: 960px) {
+    .nav-text{
+        display: none;
+    }
+    .img{
+        
+        text-align: start;
+        margin-left: 5%;
+    }
+    .col-sm-6{
+        width: 40%; 
+    }
+    #reverse{
+      
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2%;
+    transform: rotate(90deg);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .intro-text{
+        width: 340px;
+        font-size: 23px;
+    }
+    #reverse{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        transform: rotate(90deg);
+    }
+    
+  }
+  @media only screen and (max-width: 415px) {
+    .intro-text{
+        width: 340px;
+        font-size: 23px;
+    }
+    #reverse{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        transform: rotate(90deg);
+    }
+    
+  }
