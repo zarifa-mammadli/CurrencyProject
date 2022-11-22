@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,9 +23,12 @@ ul{
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
+}
+.nav-link{
     color: #959BA4;
-
-
+}
+.nav-link:hover{
+    color: black;
 }
 .nav-text{
     text-align: center;
@@ -167,8 +171,10 @@ ul li{
     color: #9F9F9F;
 }
 .impt_all {
-    text-align: center;
-    width: 232px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     position: relative;
@@ -180,11 +186,12 @@ ul li{
     padding-bottom: 24px;
     font-size: 36px;
     padding-left: 9px;
+    border: none;
+    outline: none;
 }
-
 #abso {
     position: absolute;
-    bottom: 9px;
+    bottom: 1px;
     left: 9px;
     opacity: 0.7;
     font-size: 12px;
